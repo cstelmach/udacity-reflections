@@ -20,3 +20,13 @@ Describe the differences between forks, clones, and branches. When would you use
 	it's not important/you do not care about updates of the original (for alone, mainly)
 	Forks: When you want to work with the code of someone other continuously, keeping up to date. Essential
 	for open-source collaboration the like (for open source and long-term projects)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	To brace yourself against disastrous merge conflicts? I'm not certain. 
+	Udacity Answer: If I am about to go without Internet access for a while, for example to work
+    on a plane, I can update my local copy before I leave.  I can do this even
+    if I'm not ready to merge those changes into my own branches yet.  Then if I
+    want, I can perform the merge while offline, or I need to know what the
+    remote version is at some point, I have an easy way to access it.
+    (found here: https://github.com/cbuckey-uda/reflections/blob/master/lesson_3_reflections.txt)

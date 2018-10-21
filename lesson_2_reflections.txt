@@ -26,3 +26,11 @@ What are some situations when branches would be helpful in keeping your history 
 	Also for specific versions and their version-specific changes. 
 	Branches would make everything a separate instance of the master, thus enabling steady
 	progress without changing the working version.
+
+	Compartamentalizing. Context Switiching.
+
+How do the diagrams help you visualize the branch structure?
+	
+	By graphically showing history, parents, functional dependencies (what had to come before)
+	The branches also show the history of experiments, of new features and bug fixes in 
+	a more generalized form. 

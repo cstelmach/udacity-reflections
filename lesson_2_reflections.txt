@@ -12,3 +12,10 @@ What value do you think it offers?
 	and you are thus able to commit in logical steps, by selecting related files rather than
 	committing everything everytime arbitrarily. 
 	the files selected commitable, thus enables version control and all it's benefits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Via adding to the stagin area after this logical change, checking against the workign 
+	and last commit about the scope of the changes you made. 
+	YOu could simply add the file where the logical change is going to be made to the staging
+	area and if it's complete you simply commit.

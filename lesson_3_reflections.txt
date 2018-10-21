@@ -29,4 +29,11 @@ What is the benefit of having a copy of the last known state of the remote store
     if I'm not ready to merge those changes into my own branches yet.  Then if I
     want, I can perform the merge while offline, or I need to know what the
     remote version is at some point, I have an easy way to access it.
-    (found here: https://github.com/cbuckey-uda/reflections/blob/master/lesson_3_reflections.txt)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	By strictly dividing the respective sections and tasks each collaborator has to work on. 
+	Or by making this division time-based, letting some first then others. Almost everything
+	would be harder, with exception of merging, since there would be none. 
+
+Udacity reflections: https://github.com/cbuckey-uda/reflections/blob/master/lesson_3_reflections.txt)

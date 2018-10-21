@@ -3,3 +3,11 @@ When would you want to use a remote repository rather than keeping all your work
   Whenever I work on projects with other people, on not-propriatary projects, when there might
   be a change in location, when I want a saved copy online (because of it's importance), want
   to show others the projects, etc.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+  Just like making commits only at logical steps the same is true for the opposite: There could be
+  updates which break your local version, either because your version differs significantly from
+  the remote repository or because team members have comitted changes which break your changes. Both
+  of which would essentially force a merge, which is not something you want to do without supervision.

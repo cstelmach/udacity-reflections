@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	With git init you create git repository and add a .git file, which keeps 
+	track of your commits, making version control possible. 
+	You need to to it to show which folder, which files are in the git repository.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	The working directory is simply all the files in the folder that are not commited.
+	The staging area are those files improtant to have version control. They are "pre-commit"
+	and you are thus able to commit in logical steps, by selecting related files rather than
+	committing everything everytime arbitrarily. 
+	the files selected commitable, thus enables version control and all it's benefits.

@@ -8,7 +8,8 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	The working directory is simply all the files in the folder that are not commited.
-	The staging area are "pre-commit" and you are thus able to commit in logical steps, by selecting related files rather than committing everything everytime arbitrarily. 
+	The staging area are "pre-commit" and you are thus able to commit in logical steps, by
+	selecting related files rather than committing everything everytime arbitrarily. 
 	the files selected commitable, thus enables version control and all it's benefits.
 
 How can you use the staging area to make sure you have one commit per logical change?
@@ -18,7 +19,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 	YOu could simply add the file where the logical change is going to be made to the staging
 	area and if it's complete you simply commit.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
 	
 	When trying out experimental features which will or won't make it into the original 
 	version. Since there may not be a change to the original version (master branch),
@@ -34,3 +36,11 @@ How do the diagrams help you visualize the branch structure?
 	By graphically showing history, parents, functional dependencies (what had to come before)
 	The branches also show the history of experiments, of new features and bug fixes in 
 	a more generalized form. 
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+	The result of two branches merging together is one branch containing all the changes
+	between the tip of branch1, the tip of branch2 compared to the commit where the branches
+	split. We represent it in the diagram to make it easier to visualize the development.
+	For more about visualization see last question. 

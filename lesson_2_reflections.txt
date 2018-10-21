@@ -44,3 +44,12 @@ it in the diagram the way we do?
 	between the tip of branch1, the tip of branch2 compared to the commit where the branches
 	split. We represent it in the diagram to make it easier to visualize the development.
 	For more about visualization see last question. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging
+	+) Quick. Easy for teams working on same files to work together. 
+	-) Might delete functional dependencies. Might break code.
+	Manual merging:
+	+) Logical dependencies should be intact. Human-Check.
+	-) Takes time, sometimes correct simplest things

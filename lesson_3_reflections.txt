@@ -36,4 +36,13 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Or by making this division time-based, letting some first then others. Almost everything
 	would be harder, with exception of merging, since there would be none. 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	
+	Master is like the main public branch, it's primary goal being functionality. Everything that is either
+	not functional enough, not tested enough or not yet in planned to be released will be worked on
+	in separate branches. 
+	Benefit of making changes in master: They are are main changes, everything should be measured related 
+	to them. On the other hand: Branch changes will someday have to be merged with master, thus their 
+	functionality has to take the master branch in account.
+
 Udacity reflections: https://github.com/cbuckey-uda/reflections/blob/master/lesson_3_reflections.txt)

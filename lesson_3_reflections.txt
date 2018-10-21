@@ -11,3 +11,12 @@ with your remote repository?
   updates which break your local version, either because your version differs significantly from
   the remote repository or because team members have comitted changes which break your changes. Both
   of which would essentially force a merge, which is not something you want to do without supervision.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Branches: For feature experiments, same-function-different-context-versions, whenever the original code
+	has to function while you want/have to work on it too (in teams, alone, open source)
+	Clones: When trying out or taking apart specific functions of the repository. For short projects, where
+	it's not important/you do not care about updates of the original (for alone, mainly)
+	Forks: When you want to work with the code of someone other continuously, keeping up to date. Essential
+	for open-source collaboration the like (for open source and long-term projects)

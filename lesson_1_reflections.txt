@@ -17,6 +17,7 @@ docs does?
 
     Manual commit. 
     Pro:
+    ONE COMMIT PER LOGICAL CHANGE.
     Manual commits have logical reasoning behind it. They are fewer, compared to
     automatical commits more significant. And complete (no commit mid coding).
     Also, since you can add documentation to your commits, the changes can be 
